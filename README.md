@@ -1,11 +1,4 @@
-# Clase 03 - Ejercicios de Nivelación (Módulos 1, 2 y 3)
 
-## Herramientas utilizadas
-- **JavaScript (ES6+)** como lenguaje principal, ejecutado y probado con **Node.js**.
-- **Visual Studio Code** como editor de código.
-- **Git** y **GitHub** para el control de versiones y la entrega del repositorio (`git add`, `git commit`, `git push`).
-
-## Contenido de la carpeta
 
 ### Parte 1: Ejercicios de calentamiento
 - `calentamiento1.js` — Validación de contraseña.
