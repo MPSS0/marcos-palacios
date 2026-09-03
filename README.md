@@ -1,2 +1,40 @@
-# marcos-palacios
-Marcos Salvador Palacios marcospalacios086@gmail.com
+# Clase 03 - Ejercicios de Nivelación (Módulos 1, 2 y 3)
+
+## Herramientas utilizadas
+- **JavaScript (ES6+)** como lenguaje principal, ejecutado y probado con **Node.js**.
+- **Visual Studio Code** como editor de código.
+- **Git** y **GitHub** para el control de versiones y la entrega del repositorio (`git add`, `git commit`, `git push`).
+
+## Contenido de la carpeta
+
+### Parte 1: Ejercicios de calentamiento
+- `calentamiento1.js` — Validación de contraseña.
+- `calentamiento2.js` — Cálculo de impuestos según edad e ingresos.
+- `calentamiento3.js` — Cálculo de Índice de Masa Corporal (IMC).
+- `calentamiento4.js` — FizzBuzz.
+- `calentamiento5.js` — Suma de un rango de números.
+- `calentamiento6.js` — Impresión de elementos de un arreglo.
+- `calentamiento7.js` — Conteo de apariciones de un carácter en un string.
+- `calentamiento8.js` — Duplicación de valores de un arreglo (con `map`).
+
+### Parte 2: Ejercicios de integración (Tarea semanal)
+- `ejercicio1.js` — Cálculo de estadísticas de descarga (coerción de tipos y template literals).
+- `ejercicio2.js` — Evaluación de acceso a la app escolar (lógica condicional).
+- `ejercicio3.js` — Simulación de reporte de ping (bucles `for` y `break`).
+- `ejercicio4.js` — Procesamiento de compra móvil (función declarada, expresión de función y función flecha encadenadas).
+- `ejercicio5.js` — Gráfico de consumo de memoria con bucles anidados.
+
+### Desafío semanal obligatorio
+- `peaje.js` — Simulación de facturación de un peaje inteligente:
+  - `calcularTarifa(tipoVehiculo, hora, esFeriado)`: calcula la tarifa según el tipo de vehículo, aplica recargo del 30% en hora pico (si no es feriado) y valida el tipo de vehículo ingresado (sin distinguir mayúsculas/minúsculas).
+  - `simularFilaCabina(cantidadVehiculos)`: simula el paso aleatorio de varios vehículos por la cabina, imprime el detalle de cada uno y retorna la facturación total.
+
+## Cómo ejecutar los archivos
+Cada archivo puede probarse individualmente con Node.js desde la terminal, por ejemplo:
+
+```bash
+node calentamiento1.js
+node peaje.js
+```
+
+También pueden ejecutarse en la consola del navegador (F12) copiando el contenido del archivo correspondiente.
