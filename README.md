@@ -29,12 +29,3 @@
   - `calcularTarifa(tipoVehiculo, hora, esFeriado)`: calcula la tarifa según el tipo de vehículo, aplica recargo del 30% en hora pico (si no es feriado) y valida el tipo de vehículo ingresado (sin distinguir mayúsculas/minúsculas).
   - `simularFilaCabina(cantidadVehiculos)`: simula el paso aleatorio de varios vehículos por la cabina, imprime el detalle de cada uno y retorna la facturación total.
 
-## Cómo ejecutar los archivos
-Cada archivo puede probarse individualmente con Node.js desde la terminal, por ejemplo:
-
-```bash
-node calentamiento1.js
-node peaje.js
-```
-
-También pueden ejecutarse en la consola del navegador (F12) copiando el contenido del archivo correspondiente.
