@@ -28,6 +28,6 @@ function procesarCompraMovil(precioBase, descuentoPct) {
     return precioFinal;
 }
 
-// Excelente demostración usando los tres tipos de declaración de funciones (declarada, expresada y flecha) como pedía la consigna.
+// Excelente demostración usando los tres tipos de declaración de funciones (declarada, expresada y flecha) como pedía la consigna. Los comentarios dentro de la función demuestra el uso de la IA...
 
 console.log(procesarCompraMovil(100, 10)); // 108.9

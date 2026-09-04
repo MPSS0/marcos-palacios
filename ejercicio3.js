@@ -20,7 +20,7 @@ function simularReportePing(intentosMaximos) {
     }
 }
 
-// Impecable el uso de Template Literals y la interrupción break al llegar al múltiplo de 5.
+// Impecable el uso de Template Literals y la interrupción break al llegar al múltiplo de 5. MUCHA IAAAAAAAAAAAAAAAA
 
 simularReportePing(8);
 // Intento 1: Fallido

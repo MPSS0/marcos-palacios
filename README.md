@@ -22,3 +22,10 @@
   - `calcularTarifa(tipoVehiculo, hora, esFeriado)`: calcula la tarifa según el tipo de vehículo, aplica recargo del 30% en hora pico (si no es feriado) y valida el tipo de vehículo ingresado (sin distinguir mayúsculas/minúsculas).
   - `simularFilaCabina(cantidadVehiculos)`: simula el paso aleatorio de varios vehículos por la cabina, imprime el detalle de cada uno y retorna la facturación total.
 
+
+# Nota del Profesor Axel:
+Marcos... Como se los digo siempre, estaría muy mal de mi parte negarles el uso de la IA. Lo que estaría muy bueno es que ustedes entiendan de que es una herramienta de ayuda para el aprendizaje, y no para safar la aprobación de la materia, ya que en este último caso, no van a poder hacerlo!
+No te asustes de todas formas, pero empiece a tener un mejor criterio, a mi no me sirve de nada ver que los ejercicios están completos y funcionan, por que sí, completos estan, pero no como me gustaría o como lo vimos en clase; funcionan? también! pero no de manera óptima: la IA resuelve según su pedido, pero también comete errores que USTED tiene que aprender a visualizarlos.
+Por favor, ponete a leer y estudiar todos los ejercicios, según los comentarios que yo te dejé en cada uno, probá resolverlos por tu cuenta, si te parece y querés más para practicar, yo te puedo preparar más ejercicios. Pero no te dejes estar sin entender todo lo que me entregaste, son sencillos, y usted está MÁS que capacitado para entenderlos y resolverlos por su cuenta.
+Espero dudas y consultas para la clase que viene! Saludos!
+

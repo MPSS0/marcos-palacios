@@ -18,7 +18,7 @@ function calcularEstadisticasDescarga(cantArchivos, tamanoPromedioMB) {
     return `Se descargarán ${cantidad} archivos con un peso total de ${pesoTotalKB} KB.`;
 }
 
-// Impecable el uso de const, el casteo explícito con Number() y la interpolación con Template Literals.
+// Impecable el uso de const, el casteo explícito con Number() y la interpolación con Template Literals. Sospecho mucho uso de la IA (está perfecto) pero usted recuerde que debe entender lo que está escrito !
 
 console.log(calcularEstadisticasDescarga("10", "1.5"));
 // "Se descargarán 10 archivos con un peso total de 15360 KB."

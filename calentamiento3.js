@@ -22,7 +22,22 @@ function bmi(peso, altura) {
     }
 }
 
-// Impecable el cálculo con const indice y la evaluacion ordenada de los rangos numéricos.
+// Impecable el cálculo con const indice y la evaluacion ordenada de los rangos numéricos. Aunque siempre prefiero que usen una variable auxiliar para guardar todos los estados a ser evaluado, y retornarla al final de la función:
+
+function bmi(peso, altura) {
+    let retorno = "Obeso";
+    const indice = peso / (altura * altura);
+
+    if (indice < 18.5) {
+        retorno = "Bajo de peso";
+    } else if (indice <= 24.9) {
+        retorno = "Normal";
+    } else if (indice <= 29.9) {
+        retorno = "Sobrepeso";
+    }
+
+    return retorno
+}
 
 console.log(bmi(65, 1.8));   // "Normal"
 console.log(bmi(72, 1.6));   // "Sobrepeso"

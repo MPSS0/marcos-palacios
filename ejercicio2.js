@@ -14,7 +14,7 @@ function evaluarAccesoApp(edad, tienePermisoDocente, esInvitado) {
     return edad >= 18 || tienePermisoDocente;
 }
 
-// Muy buena simplificación de la condición lógica.
+// Muy buena simplificación de la condición lógica. Aunque hay una manera más sencilla de resolverlo. OJO con el uso de la IA
 
 console.log(evaluarAccesoApp(16, true, false));  // true
 console.log(evaluarAccesoApp(20, false, true));  // false

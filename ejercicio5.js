@@ -15,7 +15,7 @@ function dibujarGraficoConsumo(pasos) {
     return grafico;
 }
 
-// Muy bien la lógica de bucles anidados para construir la pirámide de bloques. Como alternativa recordá que en ES6 contás con `.repeat(fila)` en strings.
+// Muy bien la lógica de bucles anidados para construir la pirámide de bloques. Como alternativa recordá que en ES6 contás con `.repeat(fila)` en strings. Preguntelé a la IA que hace este .repeat()
 
 console.log(dibujarGraficoConsumo(3));
 // █

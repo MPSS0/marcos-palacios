@@ -55,7 +55,7 @@ function simularFilaCabina(cantidadVehiculos) {
     return facturacionTotal;
 }
 
-// ¡Impecable trabajo en el desafío integrador, Marcos! El uso del objeto de mapeo para tarifasBase y el chequeo con .hasOwnProperty() demuestran un nivel excelente.
+// ¡Impecable trabajo en el desafío integrador, Marcos! El uso del objeto de mapeo para tarifasBase y el chequeo con .hasOwnProperty() demuestran un nivel excelente.... para quien sabe como utilizarlo y que es lo que hace... jajajaja
 
 // Pruebas manuales:
 console.log(calcularTarifa("moto", 9, false));    // 195

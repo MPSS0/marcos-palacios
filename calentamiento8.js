@@ -8,7 +8,7 @@ function duplicar(arreglo) {
     return arreglo.map(numero => numero * 2);
 }
 
-// ¡Excelente uso del método de orden superior .map()! Muy sintético y funcional.
+// ¡Excelente uso del método de orden superior .map()! Muy sintético y funcional. No sé como sabés utilizarlo, ya que lo vimos muy por encima en clase jajajaj
 
 console.log(duplicar([1, 2, 3])); // [2, 4, 6]
 console.log(duplicar([]));        // []
