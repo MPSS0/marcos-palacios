@@ -1,3 +1,15 @@
+// ==============================================================================
+// Desafío Semanal Obligatorio: Peaje Inteligente (Telepase)
+// Consigna: Implementar la facturación automática de una cabina de peaje:
+// 1. `calcularTarifa(tipoVehiculo, hora, esFeriado)`:
+//    - Tarifas base: "moto": $150, "auto": $300, "camion": $600.
+//    - Hora pico (8 a 10 y 17 a 19 inclusive): +30% recargo si NO es feriado.
+//    - Aceptar mayúsculas/minúsculas. Si es inválido, advertir y retornar 0.
+// 2. `simularFilaCabina(cantidadVehiculos)`:
+//    - Simular aleatoriamente tipo, hora (0-23) y feriado (true/false).
+//    - Mostrar detalle de cada intento en consola y retornar total recaudado.
+// ==============================================================================
+
 function calcularTarifa(tipoVehiculo, hora, esFeriado) {
     const tarifasBase = {
         moto: 150,
@@ -42,6 +54,8 @@ function simularFilaCabina(cantidadVehiculos) {
 
     return facturacionTotal;
 }
+
+// ¡Impecable trabajo en el desafío integrador, Marcos! El uso del objeto de mapeo para tarifasBase y el chequeo con .hasOwnProperty() demuestran un nivel excelente.
 
 // Pruebas manuales:
 console.log(calcularTarifa("moto", 9, false));    // 195

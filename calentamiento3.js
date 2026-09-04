@@ -1,3 +1,13 @@
+// ==============================================================================
+// Ejercicio 3: IMC (Índice de Masa Corporal)
+// Consigna: El índice de masa corporal (IMC) se calcula dividiendo el peso por la altura al cuadrado.
+// Escribir una función llamada `bmi` que reciba peso y altura y retorne:
+// - "Bajo de peso" si es menor a 18.5
+// - "Normal" si está entre 18.5 y 24.9
+// - "Sobrepeso" si está entre 25 y 29.9
+// - "Obeso" si es mayor o igual a 30
+// ==============================================================================
+
 function bmi(peso, altura) {
     const indice = peso / (altura * altura);
 
@@ -12,7 +22,9 @@ function bmi(peso, altura) {
     }
 }
 
+// Impecable el cálculo con const indice y la evaluacion ordenada de los rangos numéricos.
+
 console.log(bmi(65, 1.8));   // "Normal"
 console.log(bmi(72, 1.6));   // "Sobrepeso"
 console.log(bmi(52, 1.75));  // "Bajo de peso"
-console.log(bmi(135, 1.7));  // "Obeso"
+console.log(bmi(135, 1.7));  // "Obeso"  // "Obeso"

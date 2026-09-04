@@ -1,3 +1,12 @@
+// ==============================================================================
+// Ejercicio 12: Procesamiento de Pago
+// Consigna: Escribir una función principal `procesarCompraMovil` que contenga 3 funciones internas:
+// 1. `aplicarDescuento(precio, descuento)` (declarada)
+// 2. `sumarIva(precio)` (expresada)
+// 3. `redondear(valor)` (flecha)
+// Retornar el precio final procesado a 2 decimales.
+// ==============================================================================
+
 function procesarCompraMovil(precioBase, descuentoPct) {
     // Función Declarada
     function aplicarDescuento(precio, descuento) {
@@ -18,5 +27,7 @@ function procesarCompraMovil(precioBase, descuentoPct) {
 
     return precioFinal;
 }
+
+// Excelente demostración usando los tres tipos de declaración de funciones (declarada, expresada y flecha) como pedía la consigna.
 
 console.log(procesarCompraMovil(100, 10)); // 108.9
